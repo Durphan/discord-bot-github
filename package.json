@@ -2,13 +2,12 @@
   "name": "discordbotgithub",
   "version": "1.0.0",
   "description": "To install dependencies:",
-  "main": "./src/index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "bun src/index.js"
+    "start": "node src/index.js"
   },
-  "author": "",
+  "author": "Durphan",
   "license": "ISC",
   "dependencies": {
     "@eslint/js": "^9.13.0",
@@ -16,12 +15,8 @@
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "@types/bun": "latest",
     "eslint": "^9.13.0",
     "globals": "^15.11.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
   },
   "keywords": []
 }
